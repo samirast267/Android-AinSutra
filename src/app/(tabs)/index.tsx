@@ -60,6 +60,12 @@ export default function HomeScreen() {
         <Link href="/login" style={{ marginTop: 20 }}>
           <ThemedText type="link">Go to Login Screen →</ThemedText>
         </Link>
+        <Link href="/lawyers" style={{ marginTop: 10 }}>
+          <ThemedText type="link">Find Lawyers →</ThemedText>
+        </Link>
+        <Link href="/case-form" style={{ marginTop: 10 }}>
+          <ThemedText type="link">Submit a Case →</ThemedText>
+        </Link>
       </SafeAreaView>
     </ThemedView>
   );
