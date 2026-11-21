@@ -66,6 +66,12 @@ export default function HomeScreen() {
         <Link href="/case-form" style={{ marginTop: 10 }}>
           <ThemedText type="link">Submit a Case →</ThemedText>
         </Link>
+        <Link href={"/community" as any} style={{ marginTop: 10 }}>
+          <ThemedText type="link">Community →</ThemedText>
+        </Link>
+        <Link href={"/profile" as any} style={{ marginTop: 10 }}>
+          <ThemedText type="link">My Profile →</ThemedText>
+        </Link>
       </SafeAreaView>
     </ThemedView>
   );
