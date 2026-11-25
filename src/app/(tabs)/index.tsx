@@ -72,6 +72,9 @@ export default function HomeScreen() {
         <Link href={"/profile" as any} style={{ marginTop: 10 }}>
           <ThemedText type="link">My Profile →</ThemedText>
         </Link>
+        <Link href={"/tools" as any} style={{ marginTop: 10 }}>
+          <ThemedText type="link">Legal Tools →</ThemedText>
+        </Link>
       </SafeAreaView>
     </ThemedView>
   );
